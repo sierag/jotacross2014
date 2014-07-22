@@ -11,7 +11,7 @@
 ?>
 	</div><!-- #main .wrapper -->
 </div><!-- #page -->
-	<footer class="footer" style="height:213px;width:100%;margin-top:40px;background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/footer.png')">
+	<footer class="footer" style="height:213px;width:100%;margin-top:40px;background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/jotacross-footer.png')">
 	</footer><!-- #colophon -->
 <?php wp_footer(); ?>
 </body>
