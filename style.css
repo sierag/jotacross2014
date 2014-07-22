@@ -1471,8 +1471,7 @@ img#wpstats {
 
 /* Minimum width of 600 pixels. */
 @media screen and (max-width: 600px) {
-
-	.main-navigation {display: none !important;}
+	.header-image, .main-navigation {display: none !important;}
 }
 
 /* Minimum width of 600 pixels. */
