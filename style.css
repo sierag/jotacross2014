@@ -579,6 +579,11 @@ header .site {
 }
 
 /* Navigation Menu */
+.menu {
+	display: inline !important;
+}
+
+/* Navigation Menu */
 .main-navigation {
 	width: 100%;
 	margin-bottom: 24px;
@@ -1463,6 +1468,13 @@ img#wpstats {
 	width: device-width;
 }
 
+
+/* Minimum width of 600 pixels. */
+@media screen and (max-width: 600px) {
+
+	.main-navigation {display: none !important;}
+}
+
 /* Minimum width of 600 pixels. */
 @media screen and (min-width: 600px) {
 	.author-avatar {
@@ -1563,6 +1575,8 @@ user-select: none;
 	.pulldown {
 		position: absolute
 	}
+
+	
 	
 	.main-navigation h1 {
 		color:white;font-weight: 100;font-family: Open Sans;font-size: 2.5em;margin:.6em 0em .4em 0em;
