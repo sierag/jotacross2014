@@ -32,7 +32,7 @@
 <![endif]-->
 <?php wp_head(); ?>
 <style type="text/css">
-body { background: url('<?php echo get_stylesheet_directory_uri(); ?>/jotacross-bg.jpg') no-repeat top center fixed; }
+body { background: #1b5e1b url('<?php echo get_stylesheet_directory_uri(); ?>/jotacross-bg.jpg') no-repeat top center fixed; }
 </style>
 </head>
 <body <?php body_class(); ?>>
