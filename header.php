@@ -32,11 +32,9 @@
 <![endif]-->
 <?php wp_head(); ?>
 <style type="text/css">
-body { background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/jotacross-bg.jpg"'); background-repeat: no-repeat; background-position: top center; background-attachment: fixed; }
+body { background: url('<?php echo get_stylesheet_directory_uri(); ?>/jotacross-bg.jpg') no-repeat top center fixed; }
 </style>
-
 </head>
-
 <body <?php body_class(); ?>>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site">
