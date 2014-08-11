@@ -59,13 +59,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size: 100%;
 	vertical-align: baseline;
 }
+.tb_twitterlogo {
+	display: none;
+}
 body {
-<<<<<<< HEAD
-	line-height: 0;
-	background-color: #1b5e1b;
-=======
 		background-color: #1b5e1b;
->>>>>>> 4e46e0933bbab1917b0711687e57a8e192aeed21
 }
 ol,
 ul {
@@ -1523,11 +1521,6 @@ img#wpstats {
 		width: 100%;
 		background-color: rgba(253,253,253,.68)
 	}
-
-	.main-navigation li a, .main-navigation li {
-    		text-decoration: none;
-		    display: inline-block;
-}
 	
 	.pure-button {
 font-family: inherit;
@@ -1613,6 +1606,7 @@ user-select: none;
 		border-bottom: 0;
 		color: #1b5d1b;
 		line-height: 3.692307692;
+		text-transform: uppercase;
 		white-space: nowrap;
 	}
 	.main-navigation li a:hover,
@@ -1642,22 +1636,22 @@ user-select: none;
 	.main-navigation ul li:hover > ul,
 	.main-navigation ul li:focus > ul,
 	.main-navigation .focus > ul {
+		border-left: 0;
 		clip: inherit;
 		overflow: inherit;
 		height: inherit;
 		width: inherit;
 	}
-	.main-navigation li ul li  {
-		margin:0px;
-	}
 	.main-navigation li ul li a {
 		background: #efefef;
+		border-bottom: 1px solid #ededed;
 		display: block;
-		font-size: 1em;
+		font-size: 11px;
+		font-size: 0.785714286rem;
 		line-height: 2.181818182;
 		padding: 8px 10px;
 		padding: 0.571428571rem 0.714285714rem;
-		width: 120px;
+		width: 180px;
 		width: 12.85714286rem;
 		white-space: normal;
 	}
@@ -1670,9 +1664,8 @@ user-select: none;
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		color:green;
-		border-bottom: 1px solid green;
-		
+		color: #636363;
+		font-weight: bold;
 	}
 	.menu-toggle {
 		display: none;
@@ -1850,5 +1843,4 @@ user-select: none;
 		margin-left: 50px;
 		margin-left: 3.57142857rem;
 	}
-
 }
