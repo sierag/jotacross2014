@@ -7,7 +7,6 @@ of your CSS stylesheet in a separate stylesheet file named rtl.css.
 See http://codex.wordpress.org/Right_to_Left_Language_Support
 */
 
-
 body {
 	direction: rtl;
 	unicode-bidi: embed;
