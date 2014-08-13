@@ -1628,7 +1628,8 @@ user-select: none;
 		width: 1px;
 		overflow: hidden;
 		clip: rect(1px, 1px, 1px, 1px);
-	}
+		left: 0;
+        }
 	.main-navigation li ul ul {
 		top: 0;
 		left: 100%;
